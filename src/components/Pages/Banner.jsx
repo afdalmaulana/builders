@@ -9,14 +9,14 @@ export const Banner = () => {
   };
   return (
     <>
-      <div class="bg-gradient-to-b from-cyan-600 via-cyan-800 to-black  ... relative h-[100vh]">
+      <div class="bg-gradient-to-b from-[#192E2D] via-[#132A29] to-black  ... relative h-[100vh]">
         <div className="text-5xl text-black py-[10rem] flex flex-col justify-center items-center">
           <Fade duration={2000} direction="up" cascade={true}>
             <div className="font-primary text-5xl text-white mt-[20rem] font-bold">
               Your Vision, Your Branding Solution
             </div>
             <button
-              className="p-3 bg-black text-white text-xl rounded-xl mt-4 "
+              className="px-4 py-3 bg-[#BCBFBE] text-primary text-xl rounded-xl mt-4 hover:bg-secondary hover:text-primary"
               onClick={() => handleClick()}
             >
               Get Started

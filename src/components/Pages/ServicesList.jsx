@@ -7,14 +7,15 @@ export const ServicesList = () => {
         {ourServices.map((item, index) => (
           <div
             key={index}
-            className="group relative text-xl text-white gap-6 w-[20rem] h-[20rem] bg-gradient-to-b from-black via-cyan-800 to-cyan-400 border-black border-1 rounded-lg  flex justify-center items-center cursor-pointer hover:bg-opacity-25 px-8 "
+            className="group relative text-xl text-white gap-6 w-[25rem] h-[30rem] bg-gradient-to-b from-black via-[#132A29] to-[#192E2D] border-greys border-2 rounded-lg  flex justify-center items-center cursor-pointer hover:bg-opacity-25 px-8 "
           >
             <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50 rounded-lg"></div>
             <div className="flex flex-col items-center justify-center">
+              <img src={item.img} alt="social" />
               <div className="">{item.name}</div>
               <div className="mt-5 text-sm">{item.desc}</div>
             </div>
-            <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black px-4 py-2 rounded-lg opacity-0 transition-opacity duration-300 z-20 group-hover:opacity-100 hover:bg-primary">
+            <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black px-4 py-2 rounded-lg opacity-0 transition-opacity duration-300 z-20 group-hover:opacity-100 hover:bg-secondary">
               See Portfolio
             </button>
           </div>
