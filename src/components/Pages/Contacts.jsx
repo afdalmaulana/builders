@@ -16,14 +16,14 @@ export const Contacts = () => {
             </div>
           </Fade>
           <Fade duration={2000} direction="right" cascade={true}>
-            <div className="w-[35rem] bg-greys text-white rounded-lg py-6">
+            <div className="w-[35rem] bg-oranges text-white rounded-lg py-6">
               <div className="px-5">
                 <form action="">
                   <div className="space-y-2">
                     <div className="text-xl text-primary">Contact Us</div>
                     <input
                       type="text"
-                      className="border rounded-md w-full p-2 bg-greys placeholder-black border-black"
+                      className="border rounded-md w-full p-2 bg-oranges placeholder-black border-black"
                       placeholder="Your Name"
                     />
                   </div>
@@ -31,7 +31,7 @@ export const Contacts = () => {
                     <div className="text-xl">Message</div>
                     <textarea
                       type="textarea"
-                      className="w-full border h-[8rem] p-2 bg-greys rounded-md placeholder-black border-black"
+                      className="w-full border h-[8rem] p-2 bg-oranges rounded-md placeholder-black border-black"
                       placeholder="I want to work together"
                     />
                   </div>

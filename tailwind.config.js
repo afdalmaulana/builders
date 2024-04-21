@@ -3,10 +3,14 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      backgroundImage:{
+        'parallax' : 'url("../public/parallax.jpg")',
+      },
       colors: {
         'primary': '#192E2D',
         'secondary' : '#4CFFB4',
-        'greys' : '#BCBFBE'
+        'greys' : '#BCBFBE',
+        'oranges' : '#FFBA2F'
       },
       fontFamily : {
         primary : ['Montserrat', 'sans-serif']

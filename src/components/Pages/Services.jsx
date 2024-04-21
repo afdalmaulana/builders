@@ -4,10 +4,10 @@ import { ServicesList } from "./ServicesList";
 export const Services = () => {
   return (
     <>
-      <div class="bg-gradient-to-b from-black via-[#132A29] to-[#192E2D] ... relative h-[100vh]">
-        <div className="text-5xl text-black py-[5rem] flex flex-col justify-center items-center">
+      <div className="bg-gradient-to-b from-black via-[#132A29] to-[#192E2D] ... relative h-[100vh]">
+        <div className="text-5xl text-black py-3 widescreen:py-[5rem] flex flex-col justify-center items-center">
           <Fade duration={1500} direction="down" cascade={true}>
-            <div className="font-primary text-5xl text-white font-bold">
+            <div className="font-primary text-xl widescreen:text-5xl text-white font-bold">
               Services We Provided
             </div>
           </Fade>
