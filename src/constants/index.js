@@ -25,19 +25,19 @@ export const navItems = [{
 export const ourServices = [
     {
         name : 'Branding Solution',
-        desc : 'We provide extensive branding services to help your company build a strong brand image and stand out in competitive market',
+        desc : "We offer comprehensive branding solutions to enhance your company's brand identity and differentiate it in a competitive market.",
         img : brand,
         path : '/branding'
     },
     {
         name : 'Social Media Management',
-        desc : 'We provide professional and effective social media management services to help your company optimize',
+        desc : "We deliver comprehensive social media management services to elevate your brand's online presence and distinguish it in a crowded digital landscape.",
         img : socialBranding,
         path : '/socialmedia'
     },
     {
         name : 'Advertising',
-        desc : 'We provide professional and effective social media management services to help your company optimize',
+        desc : "We provide targeted advertising solutions to boost your brand's visibility and set it apart in a competitive marketplace.",
         img : ads,
         path : '/advertising'
     }

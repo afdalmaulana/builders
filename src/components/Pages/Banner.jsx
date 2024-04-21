@@ -21,7 +21,9 @@ export const Banner = () => {
             <div className="font-primary text-xl widescreen:text-5xl mt-5 widescreen:mt-0 text-white font-bold">
               With your finger, we can build a future
             </div>
-            <div className="text-oranges text-lg widescreen:text-xl font-primary font-light mt-4"></div>
+            <div className="text-oranges text-lg widescreen:text-xl font-primary font-light mt-4">
+              Crafting Your Vision into a Powerful Branding Strategy
+            </div>
             <button
               className="px-10 py-3 bg-oranges text-primary text-xl rounded-xl mt-4 hover:bg-secondary hover:text-primary"
               onClick={() => handleClick()}
