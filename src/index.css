@@ -2,3 +2,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.after,
+.before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0.2rem;
+  background-color: white;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out; /* Menggunakan width dan left untuk animasi */
+  z-index: -1;
+  border-radius: 50px;
+  width: 0; /* Awalnya lebar garis 0 */
+}
+
+.before {
+  background-color: orange;
+  right: 0; /* Mulai dari kanan */
+}
+
+a:hover .after {
+  left: 100%; /* Menghilang ke kanan saat tombol di hover */
+}
+
+a:hover .before {
+  width: 100%; /* Muncul dari kanan saat tombol di hover */
+}

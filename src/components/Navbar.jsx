@@ -2,16 +2,30 @@ import { useEffect, useState } from "react";
 import { navItems } from "../constants";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { builders } from "../assets";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { HamburgerMenu } from "./HamburgerMenu";
 export const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [navbar, setNavbar] = useState(false);
+  const [isHome, setIsHome] = useState(false);
+  const [isAbout, setIsAbout] = useState(false);
+  const [isProject, setIsProject] = useState(false);
+  const [isBlog, setIsBlog] = useState(false);
+  const [isService, setIsService] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleClick = () => {
     navigate("/contact");
   };
+
+  useEffect(() => {
+    setIsAbout(location.pathname === "/about");
+    setIsHome(location.pathname === "/");
+    setIsProject(location.pathname === "/project");
+    setIsBlog(location.pathname === "/blogs");
+    setIsService(location.pathname === "/ourService");
+  }, [location.pathname]);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
@@ -58,8 +72,24 @@ export const Navbar = () => {
           </div>
           <ul className="hidden tablet:flex tablet:gap-3 tablet:text-sm desktop:gap-6 widescreen:gap-10 py-5 ">
             {navItems.map((item) => (
-              <li key={item.path}>
-                <a href={`${item.path}`}>{item.name}</a>
+              <li key={item.path} className="relative">
+                <a
+                  href={`${item.path}`}
+                  className={`${
+                    isAbout && item.path === "/about" ? "text-oranges" : ""
+                  }
+                    ${isHome && item.path === "/" ? "text-oranges" : ""} ${
+                    isProject && item.path === "/project" ? "text-oranges" : ""
+                  } ${isBlog && item.path === "/blogs" ? "text-oranges" : ""} ${
+                    isService && item.path === "/ourService"
+                      ? "text-oranges"
+                      : ""
+                  } z-10 relative hover:after:hover:before:block pb-2`}
+                >
+                  {item.name}
+                  <span className="after"></span>
+                  <span className="before"></span>
+                </a>
               </li>
             ))}
           </ul>

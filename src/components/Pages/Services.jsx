@@ -4,14 +4,12 @@ import { ServicesList } from "./ServicesList";
 export const Services = () => {
   return (
     <>
-      <div className="bg-gradient-to-b from-black via-[#132A29] to-[#192E2D] ... relative h-[100vh]">
+      <div className="bg-gradient-to-b from-black via-[#132A29] to-[#192E2D] ... relative">
         <div className="text-5xl text-black py-3 widescreen:py-[5rem] flex flex-col justify-center items-center">
-          <Fade duration={1500} direction="down" cascade={true}>
+          <Fade duration={1000} direction="up" cascade={true} triggerOnce>
             <div className="font-primary text-xl widescreen:text-5xl text-white font-bold">
               Services We Provided
             </div>
-          </Fade>
-          <Fade duration={1500} direction="up" cascade={true}>
             <ServicesList />
           </Fade>
         </div>

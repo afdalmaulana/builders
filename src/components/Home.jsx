@@ -1,3 +1,4 @@
+import { About } from "./About";
 import { Banner } from "./Pages/Banner";
 import { Services } from "./Pages/Services";
 import { ViewParallax } from "./Pages/ViewParallax";
@@ -8,6 +9,7 @@ export const Home = () => {
       <Banner />
       <ViewParallax />
       <Services />
+      <About />
     </>
   );
 };

@@ -1,4 +1,4 @@
-import {socialBranding, ads, brand} from "../assets"
+import {socialBranding, ads, brand, webDesign, uxui, wedding} from "../assets"
 
 export const navItems = [{
     name : 'Home',
@@ -15,7 +15,7 @@ export const navItems = [{
 },
 {
     name : 'Our Service',
-    path : '/ourservice'
+    path : '/ourService'
 },
 {
     name : 'Blogs',
@@ -40,5 +40,23 @@ export const ourServices = [
         desc : "We provide targeted advertising solutions to boost your brand's visibility and set it apart in a competitive marketplace.",
         img : ads,
         path : '/advertising'
-    }
+    },
+    {
+        name : 'Web Desgin',
+        desc : "We provide targeted advertising solutions to boost your brand's visibility and set it apart in a competitive marketplace.",
+        img : webDesign,
+        path : '/webDesign'
+    },
+    {
+        name : 'Wedding Invitation',
+        desc : "We provide targeted advertising solutions to boost your brand's visibility and set it apart in a competitive marketplace.",
+        img : wedding,
+        path : '/dataAnalyst'
+    },
+    {
+        name : 'UX UI Design',
+        desc : "We provide targeted advertising solutions to boost your brand's visibility and set it apart in a competitive marketplace.",
+        img : uxui,
+        path : '/uxuiDesign'
+    },
 ]
