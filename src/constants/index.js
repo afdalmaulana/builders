@@ -1,4 +1,4 @@
-import {socialBranding, ads, brand, webDesign, uxui, wedding} from "../assets"
+import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample} from "../assets"
 
 export const navItems = [{
     name : 'Home',
@@ -22,6 +22,20 @@ export const navItems = [{
     path : '/blogs'
 }]
 
+export const works = [
+    {
+        name : 'Company Profile',
+        img : webExample,
+    },
+    {
+        name : 'Branding Solution',
+        img : brandExample,
+    },
+    {
+        name : 'Advertisement',
+        img : adsExample,
+    },
+]
 export const ourServices = [
     {
         name : 'Branding Solution',

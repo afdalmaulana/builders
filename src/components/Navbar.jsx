@@ -40,7 +40,7 @@ export const Navbar = () => {
     };
   });
   return (
-    <div className="w-full fixed top-0 right-0 text-white mobile:bg-transparent  z-20">
+    <div className="w-full fixed top-0 right-0 text-white mobile:bg-transparent  z-20 font-primary">
       <div
         className={`flex justify-between widescreen:px-[6rem] desktop:px-[3rem] px-8  ${
           isSticky

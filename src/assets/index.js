@@ -8,5 +8,9 @@ import uxui from "../assets/uxuiDesign.png"
 import dataAnalyst from "../assets/dataAnalyst.png"
 import wedding from "../assets/weddingInvitation.png"
 import connect from "../assets/connects.png"
+import bgAbout from "../assets/bg-about.jpg"
+import brandExample from "../assets/brands.jpg"
+import webExample from "../assets/webDevelopment.png"
+import adsExample from "../assets/advertisement.jpg"
 
-export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect}
+export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample}

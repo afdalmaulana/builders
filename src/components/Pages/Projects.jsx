@@ -1,3 +1,5 @@
+import { Footer } from "../Footer";
+
 export const Projects = () => {
   return (
     <>
@@ -5,6 +7,7 @@ export const Projects = () => {
         <div className="flex justify-center items-center">
           <h1 className="mt-[10rem] text-white text-2xl">Projects</h1>
         </div>
+        <Footer />
       </div>
     </>
   );
