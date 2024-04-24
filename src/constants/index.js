@@ -1,4 +1,4 @@
-import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample} from "../assets"
+import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample, listIcons} from "../assets"
 
 export const navItems = [{
     name : 'Home',
@@ -9,17 +9,13 @@ export const navItems = [{
     path : '/about'
 },
 {
-    name : 'Project',
-    path : '/project',
+    name : 'Client',
+    path : '/client',
 
 },
 {
-    name : 'Our Service',
-    path : '/ourService'
-},
-{
-    name : 'Blogs',
-    path : '/blogs'
+    name : 'Portfolio',
+    path : '/portfolio'
 }]
 
 export const works = [
@@ -73,4 +69,31 @@ export const ourServices = [
         img : uxui,
         path : '/uxuiDesign'
     },
+]
+
+export const visi = [
+    {
+        img : listIcons,
+        alt : 'list',
+        desc : 'To become a leading force in the digital realm, crafting impactful personal brands and delivering exceptional design solutions that resonate.'
+    },
+]
+
+export const misi = [
+    {
+        img: listIcons,
+        alt: 'list',
+        desc: 'Our mission is to provide innovative web and UX/UI designs, ensuring seamless user experiences and elevating client presence.'
+    },
+    {
+        img: listIcons,
+        alt: 'list',
+        desc: 'We aim to create compelling advertising strategies that drive engagement, increase visibility, and foster business growth.'
+    },
+    {
+        img: listIcons,
+        alt: 'list',
+        desc: 'Building lasting partnerships, we prioritize client satisfaction, understanding their goals, and achieving mutual success.'
+    }
+
 ]

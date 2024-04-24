@@ -46,7 +46,6 @@ export const Contacts = () => {
             </div>
           </Fade>
         </div>
-        <Footer />
       </div>
     </>
   );

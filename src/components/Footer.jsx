@@ -1,6 +1,6 @@
 import { IoMdMail } from "react-icons/io";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
+import { MdLocationPin } from "react-icons/md";
 export const Footer = () => {
   return (
     <>
@@ -17,7 +17,8 @@ export const Footer = () => {
                 journey towards achieving your goals together.
               </p>
             </div>
-            <div className="space-y-5">
+            <div className="space-y-4">
+              <div>Contact Us</div>
               <div className="flex space-x-5">
                 <IoMdMail size={28} />
                 <p>afdalmaulanaaa@gmail.com</p>
@@ -26,8 +27,13 @@ export const Footer = () => {
                 <FaPhoneAlt size={28} />
                 <p>+6281 2421 4977</p>
               </div>
+              <div>Location</div>
+              <div className="flex space-x-5">
+                <MdLocationPin size={28} />
+                <div>Makassar, Sulawesi Selatan, Indonesia</div>
+              </div>
             </div>
-            <div className="space-y-5">
+            <div className="space-y-4">
               <div>Find Us On Social Media</div>
               <div className="flex space-x-8">
                 <FaInstagram size={38} />

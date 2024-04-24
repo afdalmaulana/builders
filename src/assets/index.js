@@ -12,5 +12,6 @@ import bgAbout from "../assets/bg-about.jpg"
 import brandExample from "../assets/brands.jpg"
 import webExample from "../assets/webDevelopment.png"
 import adsExample from "../assets/advertisement.jpg"
+import listIcons from "../assets/listIcon.svg"
 
-export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample}
+export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons}
