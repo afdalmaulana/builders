@@ -9,8 +9,8 @@ export const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const [isHome, setIsHome] = useState(false);
   const [isAbout, setIsAbout] = useState(false);
-  const [isProject, setIsProject] = useState(false);
-  const [isBlog, setIsBlog] = useState(false);
+  const [isPortfolio, setIsPortfolio] = useState(false);
+  const [isClient, setIsClient] = useState(false);
   const [isService, setIsService] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
@@ -22,8 +22,8 @@ export const Navbar = () => {
   useEffect(() => {
     setIsAbout(location.pathname === "/about");
     setIsHome(location.pathname === "/");
-    setIsProject(location.pathname === "/project");
-    setIsBlog(location.pathname === "/blogs");
+    setIsPortfolio(location.pathname === "/portfolio");
+    setIsClient(location.pathname === "/client");
     setIsService(location.pathname === "/ourService");
   }, [location.pathname]);
   useEffect(() => {
@@ -79,8 +79,12 @@ export const Navbar = () => {
                     isAbout && item.path === "/about" ? "text-oranges" : ""
                   }
                     ${isHome && item.path === "/" ? "text-oranges" : ""} ${
-                    isProject && item.path === "/project" ? "text-oranges" : ""
-                  } ${isBlog && item.path === "/blogs" ? "text-oranges" : ""} ${
+                    isPortfolio && item.path === "/portfolio"
+                      ? "text-oranges"
+                      : ""
+                  } ${
+                    isClient && item.path === "/client" ? "text-oranges" : ""
+                  } ${
                     isService && item.path === "/ourService"
                       ? "text-oranges"
                       : ""

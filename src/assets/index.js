@@ -13,5 +13,15 @@ import brandExample from "../assets/brands.jpg"
 import webExample from "../assets/webDevelopment.png"
 import adsExample from "../assets/advertisement.jpg"
 import listIcons from "../assets/listIcon.svg"
+import artha from "../assets/logoArtha.svg"
+import kabarBahagia from "../assets/KabarBahagia.png"
+import pencilLogo from "../assets/pencilLogo.jpg"
+import paragins from "../assets/paragin.svg"
+import bilo from "../assets/bilo.svg"
+import asdod from "../assets/asdod.svg"
+import beeproger from "../assets/beeproger.svg"
+import jumbo from "../assets/jumbo.svg"
+import switcher from "../assets/switcher.svg"
+import arag from "../assets/arag.svg"
 
-export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons}
+export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher}

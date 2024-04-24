@@ -1,4 +1,4 @@
-import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample, listIcons} from "../assets"
+import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher} from "../assets"
 
 export const navItems = [{
     name : 'Home',
@@ -96,4 +96,47 @@ export const misi = [
         desc: 'Building lasting partnerships, we prioritize client satisfaction, understanding their goals, and achieving mutual success.'
     }
 
+]
+
+export const ourClients = [
+    {
+        img : artha,
+        alt : 'artha'
+    },
+    {
+        img : kabarBahagia,
+        alt : 'kabarBahagia'
+    },
+    {
+        img : paragins,
+        alt : 'paragins'
+    },
+    {
+        img : pencilLogo,
+        alt : 'pencils'
+    },
+    {
+        img : bilo,
+        alt : 'bilo'
+    },
+    {
+        img : asdod,
+        alt : 'asdod'
+    },
+    {
+        img : beeproger,
+        alt : 'beeproger'
+    },
+    {
+        img : jumbo,
+        alt : 'jumbo'
+    },
+    {
+        img : arag,
+        alt : 'arag'
+    },
+    {
+        img : switcher,
+        alt : 'switcher'
+    },
 ]
