@@ -1,5 +1,4 @@
 import { About } from "./About";
-import { Footer } from "./Footer";
 import { OurWorks } from "./OurWorks";
 import { Banner } from "./Pages/Banner";
 import { Services } from "./Pages/Services";
@@ -13,7 +12,6 @@ export const Home = () => {
       <Services />
       <About />
       <OurWorks />
-      <Footer />
     </>
   );
 };

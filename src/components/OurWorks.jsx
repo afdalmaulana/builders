@@ -1,7 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { works } from "../constants";
+import { useNavigate } from "react-router-dom";
 
 export const OurWorks = () => {
+  const navigate = useNavigate();
+
   const [loading, setLoading] = useState(true);
   console.log(loading);
   const worksRef = useRef(null);
@@ -27,6 +30,10 @@ export const OurWorks = () => {
     };
   }, []);
 
+  const handleWorkClick = () => {
+    navigate("/portfolio");
+  };
+
   return (
     <>
       <div className="bg-gradient-to-b from-black via-[#132A29] to-[#192E2D] ... relative py-8 font-primary">
@@ -45,6 +52,7 @@ export const OurWorks = () => {
                   <div
                     key={index}
                     className="group relative hover:scale-95 transition-transform duration-300 ease-in-out cursor-pointer"
+                    onClick={() => handleWorkClick}
                   >
                     <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
                     <div className="absolute bottom-0 left-0 right-0 flex justify-center items-center text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 py-4">

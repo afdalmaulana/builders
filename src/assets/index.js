@@ -23,5 +23,7 @@ import beeproger from "../assets/beeproger.svg"
 import jumbo from "../assets/jumbo.svg"
 import switcher from "../assets/switcher.svg"
 import arag from "../assets/arag.svg"
+import compro from "../assets/compro.png"
+import weddingInv from "../assets/weddingInv.png"
 
-export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher}
+export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher, compro, weddingInv}
