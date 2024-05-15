@@ -1,4 +1,4 @@
-import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher} from "../assets"
+import {socialBranding, ads, brand, webDesign, uxui, wedding, webExample, adsExample, brandExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher, chili, juiceStrawberry, fastFood, kosmetik, cookies} from "../assets"
 
 export const navItems = [{
     name : 'Home',
@@ -16,7 +16,12 @@ export const navItems = [{
 {
     name : 'Portfolio',
     path : '/portfolio'
-}]
+},
+{
+    name : 'Services',
+    path : '/services'
+}
+]
 
 export const works = [
     {
@@ -76,6 +81,40 @@ export const ourServices = [
       ID: 'ux-ui-design'
     },
   ];
+
+
+export const brandingSolution = [
+    {
+        img : chili,
+        name : "Chili Bottle",
+        alt : 'chili',
+        desc : "Crafted with the perfect blend of creativity, strategy, and market insight, our chili bottle branding ignites a spicy sensation in the market, captivating audiences with its unique flavor and irresistible charm."
+    },
+    {
+        img : juiceStrawberry,
+        name : "Juice",
+        alt : 'juice strawberry',
+        desc : 'A refreshing and refreshing experience that brings a refreshing and refreshing taste to your daily life.'
+    },
+    {
+        img : fastFood,
+        name : "Fast Food",
+        alt : 'fast food',
+        desc : 'With branding as fast-paced and dynamic as the rush-hour traffic, our fast-food branding package delivers a feast for the senses. From the bold logo emblazoned on every takeaway bag to the sleek design adorning each cup and cap, we ensure your brand sizzles with excitement at every touchpoint.'
+    },
+    {
+        img : kosmetik,
+        name : "Cosmetik",
+        alt : 'kosmetik',
+        desc : "Step into the world of beauty with our cosmetic branding magic. From the elegant packaging that whispers luxury to the vibrant colors that ignite confidence, we craft a visual symphony that mirrors your inner glow and radiates glamour with every application."
+    },
+    {
+        img : cookies,
+        name : "Cookies",
+        alt : 'cookies',
+        desc : "Savor the sweetness of success with our cookie branding expertise. From the charming cookie jar that beckons indulgence to the delightful packaging that promises a taste of home, we infuse every crumb with warmth, nostalgia, and the irresistible allure of freshly baked memories."
+    }
+]
 
 export const visi = [
     {

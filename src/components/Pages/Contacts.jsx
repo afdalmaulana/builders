@@ -1,6 +1,10 @@
 import { Fade } from "react-awesome-reveal";
 import { Footer } from "../Footer";
+import { useEffect } from "react";
 export const Contacts = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll ke atas saat komponen dimuat
+  }, []);
   return (
     <>
       <div className="bg-gradient-to-b from-[#192E2D] via-[#132A29] to-black  ... relative h-[100vh]">

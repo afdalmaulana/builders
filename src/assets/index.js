@@ -25,5 +25,12 @@ import switcher from "../assets/switcher.svg"
 import arag from "../assets/arag.svg"
 import compro from "../assets/compro.png"
 import weddingInv from "../assets/weddingInv.png"
+import socialMediaImg from "../assets/socialMedia.png"
 
-export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher, compro, weddingInv}
+import juiceStrawberry from "../assets/juice.jpg"
+import kosmetik from "../assets/kosmetik.jpg"
+import fastFood from "../assets/fastfood.jpg"
+import chili from "../assets/chili.jpg"
+import cookies from "../assets/cookies.jpg"
+
+export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher, compro, weddingInv, socialMediaImg, juiceStrawberry, chili, cookies, fastFood, kosmetik}

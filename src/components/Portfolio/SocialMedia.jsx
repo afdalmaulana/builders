@@ -1,4 +1,4 @@
-import { compro } from "../../assets"; // Update the import to the correct path
+import { socialMediaImg } from "../../assets"; // Update the import to the correct path
 
 export const SocialMedia = () => {
   const handleExternalClick = () => {
@@ -8,7 +8,11 @@ export const SocialMedia = () => {
   return (
     <div className="flex mt-[6rem]" id="social-media">
       <div className="w-1/2 flex justify-center items-center">
-        <img src={compro} alt="social media" className="w-[20rem] h-[15rem]" />
+        <img
+          src={socialMediaImg}
+          alt="social media"
+          className="w-[20rem] h-[15rem]"
+        />
       </div>
       <div className="w-1/2">
         <h1 className="text-4xl font-primary">Social Media Management</h1>
