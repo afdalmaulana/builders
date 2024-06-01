@@ -32,5 +32,10 @@ import kosmetik from "../assets/kosmetik.jpg"
 import fastFood from "../assets/fastfood.jpg"
 import chili from "../assets/chili.jpg"
 import cookies from "../assets/cookies.jpg"
+import cycle from "../assets/cyclist.jpg"
+import shoes from "../assets/shoes.jpeg"
+import carSale from "../assets/carSale.jpg"
+import drink from "../assets/drinks.jpg"
+import gaming from "../assets/gaming.jpeg"
 
-export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher, compro, weddingInv, socialMediaImg, juiceStrawberry, chili, cookies, fastFood, kosmetik}
+export {socialBranding, ads, brand, builders, people, webDesign, uxui, dataAnalyst, wedding, connect, bgAbout, brandExample, webExample, adsExample, listIcons, artha, kabarBahagia, pencilLogo, paragins, bilo, asdod, beeproger, jumbo, arag, switcher, compro, weddingInv, socialMediaImg, juiceStrawberry, chili, cookies, fastFood, kosmetik, cycle, shoes, carSale, drink, gaming}

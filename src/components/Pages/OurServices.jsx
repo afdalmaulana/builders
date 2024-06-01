@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { OpenCards } from "../OpenCards";
+import { AdvertCards } from "../AdvertCards";
 
 export const OurServices = () => {
   return (
@@ -17,6 +18,7 @@ export const OurServices = () => {
           </Fade>
         </div>
         <OpenCards />
+        <AdvertCards />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { brandingSolution } from "../constants";
-export const OpenCards = () => {
+import { advert, brandingSolution } from "../constants";
+export const AdvertCards = () => {
   const [expandedIndex, setExpand] = useState(null);
   const handleCardClick = (index) => {
     setExpand(index === expandedIndex ? -1 : index);
@@ -17,14 +17,12 @@ export const OpenCards = () => {
   };
 
   return (
-    <section className="py-16 pb-[200px] ">
+    <section className="py-2 pb-[300px] ">
       <div className="max-w-7xl mx-auto px-4 mobile:px-6 desktop:px-8">
-        <h1 className="text-3xl font-extrabold text-white">
-          Branding Solution
-        </h1>
+        <h1 className="text-3xl font-extrabold text-white">Advertisement</h1>
       </div>
       <div className="mt-12 flex flex-col tablet:flex-row justify-center items-center gap-5">
-        {brandingSolution.map((item, index) => (
+        {advert.map((item, index) => (
           <motion.div
             key={index}
             variants={cardVariants}
